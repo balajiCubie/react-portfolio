@@ -31,7 +31,8 @@ export const Content = () => {
     <Container component="main" className={classes.main} maxWidth="md">
       <div className={classes.heading}>
         <Typography variant="h5" component="h2">
-            <TextDecrypt text={`${FirstName} ${LastName}`} />
+            {/* <TextDecrypt text={`${FirstName} ${LastName}`} /> */}
+            <TextDecrypt text={`Nivetha Ramesh Babu`} />
         </Typography>
         <Typography variant="h1" component="h1" className={classes.jobs}>
             <TextDecrypt text={`${Resume.basics.job1} + `} />
