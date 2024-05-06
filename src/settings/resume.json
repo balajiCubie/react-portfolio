@@ -32,30 +32,6 @@
                 "username": "Nivetha Ramesh",
                 "url": "http://linkedin.com/in/nivetha-ramesh-448001185",
                 "x_icon": "fab fa-linkedin-in"
-            },
-            {
-                "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
-                "x_icon": "fab fa-github"
-            },
-            {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "x",
-                "username": "x",
-                "url": "x",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "x",
-                "username": "x",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
             }
         ]
     },
