@@ -25,47 +25,43 @@ const useStyles = makeStyles((theme) => ({
 export const Works = () => {
   const classes = useStyles();
   const [projects, setProjects] = useState([
-    { 
+    {
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
+      title: 'Electric Vehicles',
+      description: `Market analysis on electric vehicles (EVs) - USA using the dataset, stakeholders are likely to have a range of questions spanning market trends, performance metrics, geographic distribution, and customer demographics. `,
+      alter: 'Electric Vehicles',
       image: `${Portfolio}`,
     },
-    { 
+    {
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
+      title: 'Corporation Product Sales',
+      description: `I’ve recently developed a data dashboard using SN Corporation’s dataset, providing deep insights into various facets of the business. From tracking customer acquisition and sales performance to analyzing customer demographics and operational efficiency, this dashboard highlights key trends and opportunities.`,
+      alter: 'Corporation Product Sales',
       image: `${Veritru}`,
     },
-    { 
+    {
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
+      title: 'Alzheimer’s Disease',
+      description: `Developing an Integrated Framework for Comprehensive Alzheimer's Disease Analysis. Alzheimer's disease (AD) is still a major public health concern, and understanding its course and facilitating early identification require sophisticated approaches.`,
+      alter: 'Alzheimer’s Disease',
       image: `${Lofo}`,
     },
-    { 
+    {
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
+      title: 'Corporate Stability Through AI',
+      description: `In the thriving landscape of the American Stock Market, this investigation leverages the comprehensive US Company Bankruptcy Prediction Dataset, spanning the years 1999 to 2018, featuring critical financial variables. Moreover, this research reveals the unerring prediction of corporate bankruptcy is a paramount factor among investors, stakeholders, and corporate stability.`,
+      alter: 'Corporate Stability Through AI',
       image: `${Startup}`,
     },
-    { 
+    {
       id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
+      title: 'Machine Learning and Deep Learning',
+      description: `This project aims to explore, implement, and compare various machine learning models on a
+classification dataset. This project will help you to understand the nuances of different
+algorithms and their performance metrics.
+This project consists of three different parts and these will be in the order in the codes with
+the explanation.`,
+      alter: 'Machine Learning and Deep Learning',
       image: `${Lacalle}`,
     },
   ]);
