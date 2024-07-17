@@ -37,6 +37,11 @@ export const Content = () => {
         <Typography variant="h1" component="h1" className={classes.jobs}>
             <TextDecrypt text={`${Resume.basics.job1} + `} />
             <TextDecrypt text={`${Resume.basics.job2}`} />
+
+        </Typography>
+        <Typography variant="p" component="h2">
+            {/* <TextDecrypt text={`${FirstName} ${LastName}`} /> */}
+            <TextDecrypt text={`SKILLS :- PYTHON - PANDAS, SEABORN, NUMPY, SQL, POWERBI, MACHINE LEARNING`} />
         </Typography>
       </div>
     </Container>

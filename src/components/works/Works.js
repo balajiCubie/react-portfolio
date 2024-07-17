@@ -32,6 +32,7 @@ export const Works = () => {
       description: `Market analysis on electric vehicles (EVs) - USA using the dataset, stakeholders are likely to have a range of questions spanning market trends, performance metrics, geographic distribution, and customer demographics. `,
       alter: 'Electric Vehicles',
       image: `${Portfolio}`,
+      projectLink:'https://github.com/Niveta12/Market-Size-Analysis---Electric-Vehicles-in-the-USA-',
     },
     {
       id: 2,
@@ -39,6 +40,7 @@ export const Works = () => {
       description: `Analyzed the prevalence of various diseases and their distribution across different demographic groups (age, gender, location). Investigate how different demographic groups utilize healthcare services under the NTR Vaidya Seva scheme.`,
       alter: 'Healthcare-Data-Analysis',
       image: `${Medical}`,
+      projectLink:'https://github.com/Niveta12/Disease-Prevalence-and-Demographics---Healthcare-Data-Analysis',
     },
     {
       id: 3,
@@ -46,6 +48,7 @@ export const Works = () => {
       description: `I’ve recently developed a data dashboard using SN Corporation’s dataset, providing deep insights into various facets of the business. From tracking customer acquisition and sales performance to analyzing customer demographics and operational efficiency, this dashboard highlights key trends and opportunities.`,
       alter: 'Corporation Product Sales',
       image: `${Veritru}`,
+      projectLink:'https://github.com/Niveta12/SN-Corporation-Product-Sales-Strategy-Analysis-using-PowerBI',
     },
     {
       id: 4,
@@ -53,6 +56,7 @@ export const Works = () => {
       description: `Developing an Integrated Framework for Comprehensive Alzheimer's Disease Analysis. Alzheimer's disease (AD) is still a major public health concern, and understanding its course and facilitating early identification require sophisticated approaches.`,
       alter: 'Alzheimer’s Disease',
       image: `${Lofo}`,
+      projectLink:'https://github.com/Niveta12/Alzheimer-s-Disease-using-Machine-Learning',
     },
     {
       id: 5,
@@ -60,6 +64,7 @@ export const Works = () => {
       description: `In the thriving landscape of the American Stock Market, this investigation leverages the comprehensive US Company Bankruptcy Prediction Dataset, spanning the years 1999 to 2018, featuring critical financial variables. Moreover, this research reveals the unerring prediction of corporate bankruptcy is a paramount factor among investors, stakeholders, and corporate stability.`,
       alter: 'Corporate Stability Through AI',
       image: `${Startup}`,
+      projectLink:'https://github.com/Niveta12/-Financial-Sentinel-Beyond-Prediction-',
     },
     {
       id: 6,
@@ -71,6 +76,7 @@ This project consists of three different parts and these will be in the order in
 the explanation.`,
       alter: 'Machine Learning and Deep Learning',
       image: `${Lacalle}`,
+      projectLink:'https://github.com/Niveta12/Gesture-Phase-segmentation-using-Machine-Learning-and-Deep-Learning-models',
     },
   ]);
 
@@ -89,6 +95,7 @@ the explanation.`,
               <p className="description">
                 { project.description }
               </p>
+              <h3><a  href={project.projectLink} target="_blank" rel="noopener noreferrer" >Project Link</a></h3>
             </div>
           </div>
         ))}
