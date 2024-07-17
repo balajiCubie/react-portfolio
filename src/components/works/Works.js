@@ -68,13 +68,13 @@ export const Works = () => {
     },
     {
       id: 6,
-      title: 'Machine Learning and Deep Learning',
+      title: 'Gesture phase segmentation using ML',
       description: `This project aims to explore, implement, and compare various machine learning models on a
 classification dataset. This project will help you to understand the nuances of different
 algorithms and their performance metrics.
 This project consists of three different parts and these will be in the order in the codes with
 the explanation.`,
-      alter: 'Machine Learning and Deep Learning',
+      alter: 'Gesture phase segmentation using ML',
       image: `${Lacalle}`,
       projectLink:'https://github.com/Niveta12/Gesture-Phase-segmentation-using-Machine-Learning-and-Deep-Learning-models',
     },
