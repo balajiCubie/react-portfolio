@@ -10,15 +10,15 @@
         "job2": "Analyst",
         "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
         "summary": "based in Research website",
-        "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "keywords": "personal,website,portfolio,template,kit,mark,tan,webdev,web,developer,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "https://www.nivetharameshbabu.in/",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
             "city": "TamilNadu",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "country": "india",
+            "countryCode": "IN",
+            "region": "chennai"
         },
         "profiles": [
             {
